@@ -34,24 +34,28 @@ def main(argv):
         description="Prepare the 3D-FRONT scenes to train our model"
     )
     parser.add_argument(
-        "output_directory",
-        default="/tmp/",
+        "--output_directory",
+        default="../datasets/3D-FRONT",
         help="Path to output directory"
     )
     parser.add_argument(
-        "path_to_3d_front_dataset_directory",
+        "--path_to_3d_front_dataset_directory",
+        default="/mnt/c/datasets/3D-FRONT/3D-FRONT",
         help="Path to the 3D-FRONT dataset"
     )
     parser.add_argument(
-        "path_to_3d_future_dataset_directory",
+        "--path_to_3d_future_dataset_directory",
+        default="/mnt/c/datasets/3D-FRONT/3D-FUTURE-model",
         help="Path to the 3D-FUTURE dataset"
     )
     parser.add_argument(
-        "path_to_model_info",
+        "--path_to_model_info",
+        default="/mnt/c/datasets/3D-FRONT/3D-FUTURE-model/model_info.json",
         help="Path to the 3D-FUTURE model_info.json file"
     )
     parser.add_argument(
-        "path_to_floor_plan_textures",
+        "--path_to_floor_plan_textures",
+        default="../demo/floor_plan_texture_images",
         help="Path to floor texture images"
     )
     parser.add_argument(

@@ -27,20 +27,23 @@ def main(argv):
         description="Pickle the 3D Future dataset"
     )
     parser.add_argument(
-        "output_directory",
-        default="/tmp/",
+        "--output_directory",
+        default="../datasets",
         help="Path to output directory"
     )
     parser.add_argument(
-        "path_to_3d_front_dataset_directory",
+        "--path_to_3d_front_dataset_directory",
+        default="/mnt/c/datasets/3D-FRONT/3D-FRONT",
         help="Path to the 3D-FRONT dataset"
     )
     parser.add_argument(
-        "path_to_3d_future_dataset_directory",
+        "--path_to_3d_future_dataset_directory",
+        default="/mnt/c/datasets/3D-FRONT/3D-FUTURE-model",
         help="Path to the 3D-FUTURE dataset"
     )
     parser.add_argument(
-        "path_to_model_info",
+        "--path_to_model_info",
+        default="/mnt/c/datasets/3D-FRONT/3D-FUTURE-model/model_info.json",
         help="Path to the 3D-FUTURE model_info.json file"
     )
     parser.add_argument(

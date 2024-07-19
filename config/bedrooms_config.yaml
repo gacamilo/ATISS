@@ -1,7 +1,7 @@
 data:
     dataset_type: "cached_threedfront"
     encoding_type: "cached_autoregressive_wocm"
-    dataset_directory: "/media/paschalidoud/goproorgohome/3D_FRONT_processed/bedrooms"
+    dataset_directory: "/home/gonzac/repos/ATISS/datasets/3D-FRONT"
     annotation_file: "../config/bedroom_threed_front_splits.csv"
     path_to_invalid_scene_ids: "../config/invalid_threed_front_rooms.txt"
     path_to_invalid_bbox_jids: "../config/black_list.txt"

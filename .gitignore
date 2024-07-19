@@ -21,6 +21,7 @@ env3/
 *.pkl
 wandb/
 output/
+datasets/
 
 #VS Code settings
 .vscode/
